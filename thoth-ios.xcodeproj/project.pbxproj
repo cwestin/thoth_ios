@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA07BFF158D5E6B0087ADC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07BFE158D5E6B0087ADC5 /* UIKit.framework */; };
+		BBA07C01158D5E6B0087ADC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07C00158D5E6B0087ADC5 /* Foundation.framework */; };
+		BBA07C03158D5E6B0087ADC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07C02158D5E6B0087ADC5 /* CoreGraphics.framework */; };
+		BBA07C09158D5E6B0087ADC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA07C07158D5E6B0087ADC5 /* InfoPlist.strings */; };
+		BBA07C0B158D5E6B0087ADC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C0A158D5E6B0087ADC5 /* main.m */; };
+		BBA07C0F158D5E6B0087ADC5 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */; };
+		BBA07C12158D5E6B0087ADC5 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C11158D5E6B0087ADC5 /* GTViewController.m */; };
+		BBA07C15158D5E6B0087ADC5 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBA07BFA158D5E6B0087ADC5 /* thoth-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thoth-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA07BFE158D5E6B0087ADC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBA07C00158D5E6B0087ADC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBA07C02158D5E6B0087ADC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBA07C06158D5E6B0087ADC5 /* thoth-ios-Info.plist */ = {isa = PBXFileReference; path = "thoth-ios-Info.plist"; sourceTree = "<group>"; };
+		BBA07C08158D5E6B0087ADC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBA07C0A158D5E6B0087ADC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBA07C0C158D5E6B0087ADC5 /* thoth-ios-Prefix.pch */ = {isa = PBXFileReference; path = "thoth-ios-Prefix.pch"; sourceTree = "<group>"; };
+		BBA07C0D158D5E6B0087ADC5 /* GTAppDelegate.h */ = {isa = PBXFileReference; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		BBA07C10158D5E6B0087ADC5 /* GTViewController.h */ = {isa = PBXFileReference; path = GTViewController.h; sourceTree = "<group>"; };
+		BBA07C11158D5E6B0087ADC5 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		BBA07C14158D5E6B0087ADC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA07BF7158D5E6B0087ADC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA07BFF158D5E6B0087ADC5 /* UIKit.framework in Frameworks */,
+				BBA07C01158D5E6B0087ADC5 /* Foundation.framework in Frameworks */,
+				BBA07C03158D5E6B0087ADC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBA07BEF158D5E6B0087ADC5 = {
+			isa = PBXGroup;
+			children = (
+				BBA07C04158D5E6B0087ADC5 /* thoth-ios */,
+				BBA07BFD158D5E6B0087ADC5 /* Frameworks */,
+				BBA07BFB158D5E6B0087ADC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA07BFB158D5E6B0087ADC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA07BFA158D5E6B0087ADC5 /* thoth-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA07BFD158D5E6B0087ADC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA07BFE158D5E6B0087ADC5 /* UIKit.framework */,
+				BBA07C00158D5E6B0087ADC5 /* Foundation.framework */,
+				BBA07C02158D5E6B0087ADC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBA07C04158D5E6B0087ADC5 /* thoth-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BBA07C0D158D5E6B0087ADC5 /* GTAppDelegate.h */,
+				BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */,
+				BBA07C10158D5E6B0087ADC5 /* GTViewController.h */,
+				BBA07C11158D5E6B0087ADC5 /* GTViewController.m */,
+				BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */,
+				BBA07C05158D5E6B0087ADC5 /* Supporting Files */,
+			);
+			path = "thoth-ios";
+			sourceTree = "<group>";
+		};
+		BBA07C05158D5E6B0087ADC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA07C06158D5E6B0087ADC5 /* thoth-ios-Info.plist */,
+				BBA07C07158D5E6B0087ADC5 /* InfoPlist.strings */,
+				BBA07C0A158D5E6B0087ADC5 /* main.m */,
+				BBA07C0C158D5E6B0087ADC5 /* thoth-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA07BF9158D5E6B0087ADC5 /* thoth-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA07C18158D5E6B0087ADC5 /* Build configuration list for PBXNativeTarget "thoth-ios" */;
+			buildPhases = (
+				BBA07BF6158D5E6B0087ADC5 /* Sources */,
+				BBA07BF7158D5E6B0087ADC5 /* Frameworks */,
+				BBA07BF8158D5E6B0087ADC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "thoth-ios";
+			productName = "thoth-ios";
+			productReference = BBA07BFA158D5E6B0087ADC5 /* thoth-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA07BF1158D5E6B0087ADC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BBA07BF4158D5E6B0087ADC5 /* Build configuration list for PBXProject "thoth-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBA07BEF158D5E6B0087ADC5;
+			productRefGroup = BBA07BFB158D5E6B0087ADC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA07BF9158D5E6B0087ADC5 /* thoth-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA07BF8158D5E6B0087ADC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA07C09158D5E6B0087ADC5 /* InfoPlist.strings in Resources */,
+				BBA07C15158D5E6B0087ADC5 /* GTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA07BF6158D5E6B0087ADC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA07C0B158D5E6B0087ADC5 /* main.m in Sources */,
+				BBA07C0F158D5E6B0087ADC5 /* GTAppDelegate.m in Sources */,
+				BBA07C12158D5E6B0087ADC5 /* GTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBA07C07158D5E6B0087ADC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA07C08158D5E6B0087ADC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA07C14158D5E6B0087ADC5 /* en */,
+			);
+			name = GTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA07C16158D5E6B0087ADC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBA07C17158D5E6B0087ADC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA07C19158D5E6B0087ADC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thoth-ios/thoth-ios-Prefix.pch";
+				INFOPLIST_FILE = "thoth-ios/thoth-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBA07C1A158D5E6B0087ADC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thoth-ios/thoth-ios-Prefix.pch";
+				INFOPLIST_FILE = "thoth-ios/thoth-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA07BF4158D5E6B0087ADC5 /* Build configuration list for PBXProject "thoth-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA07C16158D5E6B0087ADC5 /* Debug */,
+				BBA07C17158D5E6B0087ADC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA07C18158D5E6B0087ADC5 /* Build configuration list for PBXNativeTarget "thoth-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA07C19158D5E6B0087ADC5 /* Debug */,
+				BBA07C1A158D5E6B0087ADC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA07BF1158D5E6B0087ADC5 /* Project object */;
+}
