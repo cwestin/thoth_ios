@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB9B15BB158E89D100160992 /* GTHand.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B15BA158E89D100160992 /* GTHand.m */; };
+		BB9B15BF158E970F00160992 /* GTScore.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B15BE158E970F00160992 /* GTScore.m */; };
+		BB9B15C1158F9CB800160992 /* RWS_Tarot_00_Fool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C0158F9CB800160992 /* RWS_Tarot_00_Fool.jpg */; };
+		BB9B15D9158F9D5C00160992 /* RWS_Tarot_01_Magician.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C4158F9D5C00160992 /* RWS_Tarot_01_Magician.jpg */; };
+		BB9B15DA158F9D5C00160992 /* RWS_Tarot_02_High_Priestess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C5158F9D5C00160992 /* RWS_Tarot_02_High_Priestess.jpg */; };
+		BB9B15DB158F9D5C00160992 /* RWS_Tarot_03_Empress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C6158F9D5C00160992 /* RWS_Tarot_03_Empress.jpg */; };
+		BB9B15DC158F9D5C00160992 /* RWS_Tarot_04_Emperor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C7158F9D5C00160992 /* RWS_Tarot_04_Emperor.jpg */; };
+		BB9B15DD158F9D5C00160992 /* RWS_Tarot_05_Hierophant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C8158F9D5C00160992 /* RWS_Tarot_05_Hierophant.jpg */; };
+		BB9B15DE158F9D5C00160992 /* RWS_Tarot_06_Lovers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15C9158F9D5C00160992 /* RWS_Tarot_06_Lovers.jpg */; };
+		BB9B15DF158F9D5C00160992 /* RWS_Tarot_07_Chariot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CA158F9D5C00160992 /* RWS_Tarot_07_Chariot.jpg */; };
+		BB9B15E0158F9D5C00160992 /* RWS_Tarot_08_Strength.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CB158F9D5C00160992 /* RWS_Tarot_08_Strength.jpg */; };
+		BB9B15E1158F9D5C00160992 /* RWS_Tarot_09_Hermit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CC158F9D5C00160992 /* RWS_Tarot_09_Hermit.jpg */; };
+		BB9B15E2158F9D5C00160992 /* RWS_Tarot_10_Wheel_of_Fortune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CD158F9D5C00160992 /* RWS_Tarot_10_Wheel_of_Fortune.jpg */; };
+		BB9B15E3158F9D5C00160992 /* RWS_Tarot_11_Justice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CE158F9D5C00160992 /* RWS_Tarot_11_Justice.jpg */; };
+		BB9B15E4158F9D5C00160992 /* RWS_Tarot_12_Hanged_Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15CF158F9D5C00160992 /* RWS_Tarot_12_Hanged_Man.jpg */; };
+		BB9B15E5158F9D5C00160992 /* RWS_Tarot_13_Death.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D0158F9D5C00160992 /* RWS_Tarot_13_Death.jpg */; };
+		BB9B15E6158F9D5C00160992 /* RWS_Tarot_14_Temperance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D1158F9D5C00160992 /* RWS_Tarot_14_Temperance.jpg */; };
+		BB9B15E7158F9D5C00160992 /* RWS_Tarot_15_Devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D2158F9D5C00160992 /* RWS_Tarot_15_Devil.jpg */; };
+		BB9B15E8158F9D5C00160992 /* RWS_Tarot_16_Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D3158F9D5C00160992 /* RWS_Tarot_16_Tower.jpg */; };
+		BB9B15E9158F9D5C00160992 /* RWS_Tarot_17_Star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D4158F9D5C00160992 /* RWS_Tarot_17_Star.jpg */; };
+		BB9B15EA158F9D5C00160992 /* RWS_Tarot_18_Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D5158F9D5C00160992 /* RWS_Tarot_18_Moon.jpg */; };
+		BB9B15EB158F9D5C00160992 /* RWS_Tarot_19_Sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D6158F9D5C00160992 /* RWS_Tarot_19_Sun.jpg */; };
+		BB9B15EC158F9D5C00160992 /* RWS_Tarot_20_Judgement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D7158F9D5C00160992 /* RWS_Tarot_20_Judgement.jpg */; };
+		BB9B15ED158F9D5C00160992 /* RWS_Tarot_21_World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB9B15D8158F9D5C00160992 /* RWS_Tarot_21_World.jpg */; };
+		BB9B15F0158F9F1E00160992 /* GTCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B15EF158F9F1E00160992 /* GTCardView.m */; };
 		BBA07BFF158D5E6B0087ADC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07BFE158D5E6B0087ADC5 /* UIKit.framework */; };
 		BBA07C01158D5E6B0087ADC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07C00158D5E6B0087ADC5 /* Foundation.framework */; };
 		BBA07C03158D5E6B0087ADC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA07C02158D5E6B0087ADC5 /* CoreGraphics.framework */; };
@@ -15,22 +40,56 @@
 		BBA07C0F158D5E6B0087ADC5 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */; };
 		BBA07C12158D5E6B0087ADC5 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C11158D5E6B0087ADC5 /* GTViewController.m */; };
 		BBA07C15158D5E6B0087ADC5 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */; };
+		BBA07C1D158D67550087ADC5 /* GTCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C1C158D67550087ADC5 /* GTCard.m */; };
+		BBA07C20158D6EBD0087ADC5 /* GTDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C1F158D6EBD0087ADC5 /* GTDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB9B15B9158E89D100160992 /* GTHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTHand.h; sourceTree = "<group>"; };
+		BB9B15BA158E89D100160992 /* GTHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTHand.m; sourceTree = "<group>"; };
+		BB9B15BD158E970F00160992 /* GTScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTScore.h; sourceTree = "<group>"; };
+		BB9B15BE158E970F00160992 /* GTScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTScore.m; sourceTree = "<group>"; };
+		BB9B15C0158F9CB800160992 /* RWS_Tarot_00_Fool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_00_Fool.jpg; sourceTree = "<group>"; };
+		BB9B15C4158F9D5C00160992 /* RWS_Tarot_01_Magician.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_01_Magician.jpg; sourceTree = "<group>"; };
+		BB9B15C5158F9D5C00160992 /* RWS_Tarot_02_High_Priestess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_02_High_Priestess.jpg; sourceTree = "<group>"; };
+		BB9B15C6158F9D5C00160992 /* RWS_Tarot_03_Empress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_03_Empress.jpg; sourceTree = "<group>"; };
+		BB9B15C7158F9D5C00160992 /* RWS_Tarot_04_Emperor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_04_Emperor.jpg; sourceTree = "<group>"; };
+		BB9B15C8158F9D5C00160992 /* RWS_Tarot_05_Hierophant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_05_Hierophant.jpg; sourceTree = "<group>"; };
+		BB9B15C9158F9D5C00160992 /* RWS_Tarot_06_Lovers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_06_Lovers.jpg; sourceTree = "<group>"; };
+		BB9B15CA158F9D5C00160992 /* RWS_Tarot_07_Chariot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_07_Chariot.jpg; sourceTree = "<group>"; };
+		BB9B15CB158F9D5C00160992 /* RWS_Tarot_08_Strength.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_08_Strength.jpg; sourceTree = "<group>"; };
+		BB9B15CC158F9D5C00160992 /* RWS_Tarot_09_Hermit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_09_Hermit.jpg; sourceTree = "<group>"; };
+		BB9B15CD158F9D5C00160992 /* RWS_Tarot_10_Wheel_of_Fortune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_10_Wheel_of_Fortune.jpg; sourceTree = "<group>"; };
+		BB9B15CE158F9D5C00160992 /* RWS_Tarot_11_Justice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_11_Justice.jpg; sourceTree = "<group>"; };
+		BB9B15CF158F9D5C00160992 /* RWS_Tarot_12_Hanged_Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_12_Hanged_Man.jpg; sourceTree = "<group>"; };
+		BB9B15D0158F9D5C00160992 /* RWS_Tarot_13_Death.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_13_Death.jpg; sourceTree = "<group>"; };
+		BB9B15D1158F9D5C00160992 /* RWS_Tarot_14_Temperance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_14_Temperance.jpg; sourceTree = "<group>"; };
+		BB9B15D2158F9D5C00160992 /* RWS_Tarot_15_Devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_15_Devil.jpg; sourceTree = "<group>"; };
+		BB9B15D3158F9D5C00160992 /* RWS_Tarot_16_Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_16_Tower.jpg; sourceTree = "<group>"; };
+		BB9B15D4158F9D5C00160992 /* RWS_Tarot_17_Star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_17_Star.jpg; sourceTree = "<group>"; };
+		BB9B15D5158F9D5C00160992 /* RWS_Tarot_18_Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_18_Moon.jpg; sourceTree = "<group>"; };
+		BB9B15D6158F9D5C00160992 /* RWS_Tarot_19_Sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_19_Sun.jpg; sourceTree = "<group>"; };
+		BB9B15D7158F9D5C00160992 /* RWS_Tarot_20_Judgement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_20_Judgement.jpg; sourceTree = "<group>"; };
+		BB9B15D8158F9D5C00160992 /* RWS_Tarot_21_World.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RWS_Tarot_21_World.jpg; sourceTree = "<group>"; };
+		BB9B15EE158F9F1E00160992 /* GTCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCardView.h; sourceTree = "<group>"; };
+		BB9B15EF158F9F1E00160992 /* GTCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCardView.m; sourceTree = "<group>"; };
 		BBA07BFA158D5E6B0087ADC5 /* thoth-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thoth-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA07BFE158D5E6B0087ADC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBA07C00158D5E6B0087ADC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBA07C02158D5E6B0087ADC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BBA07C06158D5E6B0087ADC5 /* thoth-ios-Info.plist */ = {isa = PBXFileReference; path = "thoth-ios-Info.plist"; sourceTree = "<group>"; };
+		BBA07C06158D5E6B0087ADC5 /* thoth-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thoth-ios-Info.plist"; sourceTree = "<group>"; };
 		BBA07C08158D5E6B0087ADC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBA07C0A158D5E6B0087ADC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBA07C0C158D5E6B0087ADC5 /* thoth-ios-Prefix.pch */ = {isa = PBXFileReference; path = "thoth-ios-Prefix.pch"; sourceTree = "<group>"; };
-		BBA07C0D158D5E6B0087ADC5 /* GTAppDelegate.h */ = {isa = PBXFileReference; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		BBA07C0C158D5E6B0087ADC5 /* thoth-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thoth-ios-Prefix.pch"; sourceTree = "<group>"; };
+		BBA07C0D158D5E6B0087ADC5 /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
 		BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
-		BBA07C10158D5E6B0087ADC5 /* GTViewController.h */ = {isa = PBXFileReference; path = GTViewController.h; sourceTree = "<group>"; };
+		BBA07C10158D5E6B0087ADC5 /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
 		BBA07C11158D5E6B0087ADC5 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		BBA07C14158D5E6B0087ADC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GTViewController.xib; sourceTree = "<group>"; };
+		BBA07C1B158D67550087ADC5 /* GTCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCard.h; sourceTree = "<group>"; };
+		BBA07C1C158D67550087ADC5 /* GTCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCard.m; sourceTree = "<group>"; };
+		BBA07C1E158D6EBD0087ADC5 /* GTDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTDeck.h; sourceTree = "<group>"; };
+		BBA07C1F158D6EBD0087ADC5 /* GTDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +106,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB9B15C3158F9D1300160992 /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B15C4158F9D5C00160992 /* RWS_Tarot_01_Magician.jpg */,
+				BB9B15C5158F9D5C00160992 /* RWS_Tarot_02_High_Priestess.jpg */,
+				BB9B15C6158F9D5C00160992 /* RWS_Tarot_03_Empress.jpg */,
+				BB9B15C7158F9D5C00160992 /* RWS_Tarot_04_Emperor.jpg */,
+				BB9B15C8158F9D5C00160992 /* RWS_Tarot_05_Hierophant.jpg */,
+				BB9B15C9158F9D5C00160992 /* RWS_Tarot_06_Lovers.jpg */,
+				BB9B15CA158F9D5C00160992 /* RWS_Tarot_07_Chariot.jpg */,
+				BB9B15CB158F9D5C00160992 /* RWS_Tarot_08_Strength.jpg */,
+				BB9B15CC158F9D5C00160992 /* RWS_Tarot_09_Hermit.jpg */,
+				BB9B15CD158F9D5C00160992 /* RWS_Tarot_10_Wheel_of_Fortune.jpg */,
+				BB9B15CE158F9D5C00160992 /* RWS_Tarot_11_Justice.jpg */,
+				BB9B15CF158F9D5C00160992 /* RWS_Tarot_12_Hanged_Man.jpg */,
+				BB9B15D0158F9D5C00160992 /* RWS_Tarot_13_Death.jpg */,
+				BB9B15D1158F9D5C00160992 /* RWS_Tarot_14_Temperance.jpg */,
+				BB9B15D2158F9D5C00160992 /* RWS_Tarot_15_Devil.jpg */,
+				BB9B15D3158F9D5C00160992 /* RWS_Tarot_16_Tower.jpg */,
+				BB9B15D4158F9D5C00160992 /* RWS_Tarot_17_Star.jpg */,
+				BB9B15D5158F9D5C00160992 /* RWS_Tarot_18_Moon.jpg */,
+				BB9B15D6158F9D5C00160992 /* RWS_Tarot_19_Sun.jpg */,
+				BB9B15D7158F9D5C00160992 /* RWS_Tarot_20_Judgement.jpg */,
+				BB9B15D8158F9D5C00160992 /* RWS_Tarot_21_World.jpg */,
+				BB9B15C0158F9CB800160992 /* RWS_Tarot_00_Fool.jpg */,
+			);
+			name = cards;
+			sourceTree = "<group>";
+		};
 		BBA07BEF158D5E6B0087ADC5 = {
 			isa = PBXGroup;
 			children = (
 				BBA07C04158D5E6B0087ADC5 /* thoth-ios */,
 				BBA07BFD158D5E6B0087ADC5 /* Frameworks */,
 				BBA07BFB158D5E6B0087ADC5 /* Products */,
+				BB9B15C3158F9D1300160992 /* cards */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +168,16 @@
 			children = (
 				BBA07C0D158D5E6B0087ADC5 /* GTAppDelegate.h */,
 				BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */,
+				BBA07C1B158D67550087ADC5 /* GTCard.h */,
+				BB9B15EE158F9F1E00160992 /* GTCardView.h */,
+				BB9B15EF158F9F1E00160992 /* GTCardView.m */,
+				BBA07C1C158D67550087ADC5 /* GTCard.m */,
+				BBA07C1E158D6EBD0087ADC5 /* GTDeck.h */,
+				BB9B15B9158E89D100160992 /* GTHand.h */,
+				BB9B15BD158E970F00160992 /* GTScore.h */,
+				BB9B15BE158E970F00160992 /* GTScore.m */,
+				BB9B15BA158E89D100160992 /* GTHand.m */,
+				BBA07C1F158D6EBD0087ADC5 /* GTDeck.m */,
 				BBA07C10158D5E6B0087ADC5 /* GTViewController.h */,
 				BBA07C11158D5E6B0087ADC5 /* GTViewController.m */,
 				BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */,
@@ -151,6 +250,28 @@
 			files = (
 				BBA07C09158D5E6B0087ADC5 /* InfoPlist.strings in Resources */,
 				BBA07C15158D5E6B0087ADC5 /* GTViewController.xib in Resources */,
+				BB9B15C1158F9CB800160992 /* RWS_Tarot_00_Fool.jpg in Resources */,
+				BB9B15D9158F9D5C00160992 /* RWS_Tarot_01_Magician.jpg in Resources */,
+				BB9B15DA158F9D5C00160992 /* RWS_Tarot_02_High_Priestess.jpg in Resources */,
+				BB9B15DB158F9D5C00160992 /* RWS_Tarot_03_Empress.jpg in Resources */,
+				BB9B15DC158F9D5C00160992 /* RWS_Tarot_04_Emperor.jpg in Resources */,
+				BB9B15DD158F9D5C00160992 /* RWS_Tarot_05_Hierophant.jpg in Resources */,
+				BB9B15DE158F9D5C00160992 /* RWS_Tarot_06_Lovers.jpg in Resources */,
+				BB9B15DF158F9D5C00160992 /* RWS_Tarot_07_Chariot.jpg in Resources */,
+				BB9B15E0158F9D5C00160992 /* RWS_Tarot_08_Strength.jpg in Resources */,
+				BB9B15E1158F9D5C00160992 /* RWS_Tarot_09_Hermit.jpg in Resources */,
+				BB9B15E2158F9D5C00160992 /* RWS_Tarot_10_Wheel_of_Fortune.jpg in Resources */,
+				BB9B15E3158F9D5C00160992 /* RWS_Tarot_11_Justice.jpg in Resources */,
+				BB9B15E4158F9D5C00160992 /* RWS_Tarot_12_Hanged_Man.jpg in Resources */,
+				BB9B15E5158F9D5C00160992 /* RWS_Tarot_13_Death.jpg in Resources */,
+				BB9B15E6158F9D5C00160992 /* RWS_Tarot_14_Temperance.jpg in Resources */,
+				BB9B15E7158F9D5C00160992 /* RWS_Tarot_15_Devil.jpg in Resources */,
+				BB9B15E8158F9D5C00160992 /* RWS_Tarot_16_Tower.jpg in Resources */,
+				BB9B15E9158F9D5C00160992 /* RWS_Tarot_17_Star.jpg in Resources */,
+				BB9B15EA158F9D5C00160992 /* RWS_Tarot_18_Moon.jpg in Resources */,
+				BB9B15EB158F9D5C00160992 /* RWS_Tarot_19_Sun.jpg in Resources */,
+				BB9B15EC158F9D5C00160992 /* RWS_Tarot_20_Judgement.jpg in Resources */,
+				BB9B15ED158F9D5C00160992 /* RWS_Tarot_21_World.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +285,11 @@
 				BBA07C0B158D5E6B0087ADC5 /* main.m in Sources */,
 				BBA07C0F158D5E6B0087ADC5 /* GTAppDelegate.m in Sources */,
 				BBA07C12158D5E6B0087ADC5 /* GTViewController.m in Sources */,
+				BBA07C1D158D67550087ADC5 /* GTCard.m in Sources */,
+				BBA07C20158D6EBD0087ADC5 /* GTDeck.m in Sources */,
+				BB9B15BB158E89D100160992 /* GTHand.m in Sources */,
+				BB9B15BF158E970F00160992 /* GTScore.m in Sources */,
+				BB9B15F0158F9F1E00160992 /* GTCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +401,7 @@
 				BBA07C1A158D5E6B0087ADC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
