@@ -82,4 +82,14 @@
     return pPCV3;
 }
 
+- (GTCardButton *)pdcb1
+{
+    return pDCB1;
+}
+
+- (IBAction)chooseDC1:(id)sender
+{
+    NSLog(@"chooseDC1");
+}
+
 @end

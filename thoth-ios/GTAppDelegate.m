@@ -73,31 +73,38 @@
     NSLog(@"GTAppDelegate set scores");
 
     GTCardView *pCV;
+    GTCardButton *pCB;
     GTCard *pCard;
 
     pCV = [pGTVC ocv1];
     pCard = [pDeck deal];
     [pCV setCard:pCard];
     [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set oc1");
+    NSLog(@"GTAppDelegate set ocv1");
 
     pCV = [pGTVC ocv2];
     pCard = [pDeck deal];
     [pCV setCard:pCard];
     [pCV setFaceUp:false];
-    NSLog(@"GTAppDelegate set oc2");
+    NSLog(@"GTAppDelegate set ocv2");
 
     pCV = [pGTVC pcv1];
     pCard = [pDeck deal];
     [pCV setCard:pCard];
     [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set pc1");
+    NSLog(@"GTAppDelegate set pcv1");
 
     pCV = [pGTVC pcv2];
     pCard = [pDeck deal];
     [pCV setCard:pCard];
     [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set pc2");
+    NSLog(@"GTAppDelegate set pcv2");
+
+    pCB = [pGTVC pdcb1];
+    pCard = [pDeck deal];
+    [pCB setCard:pCard];
+    [pCB setFaceUp:true];
+    NSLog(@"GTAppDelegate set dcb1");
 }
 
 // override from UIApplicationDelegate

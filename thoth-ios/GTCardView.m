@@ -55,7 +55,7 @@
         {
             // draw the image
             [pImage drawInRect:imageRect];
-            NSLog(@"GTCardView drawRect drew image");
+            NSLog(@"GTCardView drawRect drew image %@", pImage);
         }
         else
         {

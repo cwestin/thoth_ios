@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "GTCardView.h"
+#import "GTCardButton.h" // temp
 
 @class GTCard;
 
@@ -27,6 +28,8 @@
     IBOutlet GTCardView *pPCV1;
     IBOutlet GTCardView *pPCV2;
     IBOutlet GTCardView *pPCV3;
+
+    IBOutlet GTCardButton *pDCB1;
 }
 
 /**
@@ -84,5 +87,9 @@
    @returns the player's third card view
 */
 - (GTCardView *)pcv3;
+
+// TEMP
+- (GTCardButton *)pdcb1;
+- (IBAction)chooseDC1:(id)sender;
 
 @end

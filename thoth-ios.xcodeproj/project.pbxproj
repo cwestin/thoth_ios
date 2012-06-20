@@ -42,6 +42,7 @@
 		BBA07C15158D5E6B0087ADC5 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA07C13158D5E6B0087ADC5 /* GTViewController.xib */; };
 		BBA07C1D158D67550087ADC5 /* GTCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C1C158D67550087ADC5 /* GTCard.m */; };
 		BBA07C20158D6EBD0087ADC5 /* GTDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C1F158D6EBD0087ADC5 /* GTDeck.m */; };
+		BBBBFBD61591595F003F70C0 /* GTCardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBBFBD51591595F003F70C0 /* GTCardButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,8 @@
 		BBA07C1C158D67550087ADC5 /* GTCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCard.m; sourceTree = "<group>"; };
 		BBA07C1E158D6EBD0087ADC5 /* GTDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTDeck.h; sourceTree = "<group>"; };
 		BBA07C1F158D6EBD0087ADC5 /* GTDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTDeck.m; sourceTree = "<group>"; };
+		BBBBFBD41591595F003F70C0 /* GTCardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCardButton.h; sourceTree = "<group>"; };
+		BBBBFBD51591595F003F70C0 /* GTCardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCardButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				BBA07C0E158D5E6B0087ADC5 /* GTAppDelegate.m */,
 				BBA07C1B158D67550087ADC5 /* GTCard.h */,
 				BB9B15EE158F9F1E00160992 /* GTCardView.h */,
+				BBBBFBD41591595F003F70C0 /* GTCardButton.h */,
+				BBBBFBD51591595F003F70C0 /* GTCardButton.m */,
 				BB9B15EF158F9F1E00160992 /* GTCardView.m */,
 				BBA07C1C158D67550087ADC5 /* GTCard.m */,
 				BBA07C1E158D6EBD0087ADC5 /* GTDeck.h */,
@@ -290,6 +295,7 @@
 				BB9B15BB158E89D100160992 /* GTHand.m in Sources */,
 				BB9B15BF158E970F00160992 /* GTScore.m in Sources */,
 				BB9B15F0158F9F1E00160992 /* GTCardView.m in Sources */,
+				BBBBFBD61591595F003F70C0 /* GTCardButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
