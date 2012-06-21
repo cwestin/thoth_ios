@@ -52,44 +52,114 @@
     NSLog(@"Set player score to %d", score);
 }
 
-- (GTCardView *)ocv1
+- (void)setupModelsAndPScore:(int)pScore andOScore:(int)oScore
 {
-    return pOCV1;
+    // the model data for the game
+    pDeck = [[GTDeck alloc] init];
+    pOpponentHand = [[GTHand alloc] init];
+    pPlayerHand = [[GTHand alloc] init];
+
+    opponentScore = oScore;
+    playerScore = pScore;
 }
 
-- (GTCardView *)ocv2
+- (void)showScores
 {
-    return pOCV2;
+    [self setOpponentScore:opponentScore];
+    [self setPlayerScore:playerScore];
 }
 
-- (GTCardView *)ocv3
+- (void)dealHand
 {
-    return pOCV3;
+    pDealView.hidden = NO;
+    pOutcomeView.hidden = YES;
+
+    [pDeck shuffle];
+
+    GTCard *pCard;
+
+    // deal player and opponent cards
+    pCard = [pDeck deal];
+    [pPlayerHand addCard:pCard];
+    [pPCV1 setCard:pCard];
+    [pPCV1 setFaceUp:true];
+    NSLog(@"GTViewController set pcv1");
+
+    pCard = [pDeck deal];
+    [pOpponentHand addCard:pCard];
+    [pOCV1 setCard:pCard];
+    [pOCV1 setFaceUp:true];
+    NSLog(@"GTViewController set ocv1");
+
+    pCard = [pDeck deal];
+    [pPlayerHand addCard:pCard];
+    [pPCV2 setCard:pCard];
+    [pPCV2 setFaceUp:true];
+    NSLog(@"GTViewController set pcv2");
+
+    pCard = [pDeck deal];
+    [pOpponentHand addCard:pCard];
+    [pOCV2 setCard:pCard];
+    [pOCV2 setFaceUp:false];
+    NSLog(@"GTViewController set ocv2");
+
+    [pPCV3 setCard:nil];
+
+
+    // deal the table cards to choose from
+    pCard = [pDeck deal];
+    [pDCB1 setCard:pCard];
+    [pDCB1 setFaceUp:true];
+    NSLog(@"GTViewController set dcb1");
+
+    pCard = [pDeck deal];
+    [pDCB2 setCard:pCard];
+    [pDCB2 setFaceUp:true];
+    NSLog(@"GTViewController set dcb2");
+
+    pCard = [pDeck deal];
+    [pDCB3 setCard:pCard];
+    [pDCB3 setFaceUp:true];
+    NSLog(@"GTViewController set dcb3");
 }
 
-- (GTCardView *)pcv1
+- (IBAction)choose:(id)sender
 {
-    return pPCV1;
+    // add the chosen card to the player's hand
+    GTCard *pCard = [sender card];
+    NSLog(@"choose %@", pCard);
+    [pPlayerHand addCard:pCard];
+    [pPCV3 setCard:pCard];
+    [pPCV3 setFaceUp:true];
+
+    // remove the card from the remaining choices
+    [sender setCard:nil];
+
+    // expose the opponent's hidden card
+    [pOCV2 setFaceUp:true];
+
+    // evaluate opponent's best choice, and set result
+    pOutcomeText.text = [NSString stringWithFormat:@"no hand evaluation yet"];
+    
+    // switch to showing the results
+    pDealView.hidden = YES;
+    pOutcomeView.hidden = NO;
+
 }
 
-- (GTCardView *)pcv2
+- (IBAction)yield:(id)sender
 {
-    return pPCV2;
+    NSLog(@"choose yield");
+
+    playerScore -= 9;
+    [self setPlayerScore:playerScore];
+
+    [self dealHand];
 }
 
-- (GTCardView *)pcv3
+- (IBAction)deal:(id)sender
 {
-    return pPCV3;
-}
-
-- (GTCardButton *)pdcb1
-{
-    return pDCB1;
-}
-
-- (IBAction)chooseDC1:(id)sender
-{
-    NSLog(@"chooseDC1");
+    [self dealHand];
 }
 
 @end

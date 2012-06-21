@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GTCard.h"
+@class GTCard;
 
 
 @interface GTCardView : UIView
 {
+    GTCard *pCard;
     UIImage *pImage;
     bool faceUp;
 }
@@ -30,5 +31,12 @@
    @param pCard the card to be displayed.
  */
 - (void)setCard:(GTCard *)pCard;
+
+/**
+   Get the current card displayed.
+
+   @returns the card being displayed.
+*/
+- (GTCard *)card;
 
 @end

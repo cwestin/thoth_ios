@@ -19,5 +19,6 @@
 // these methods delegate to the contained GTCardView; see that class
 - (void)setFaceUp:(bool)faceUp;
 - (void)setCard:(GTCard *)pCard;
+- (GTCard *)card;
 
 @end

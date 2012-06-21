@@ -9,13 +9,22 @@
 #import <UIKit/UIKit.h>
 
 #import "GTCardView.h"
-#import "GTCardButton.h" // temp
+#import "GTCardButton.h"
+#import "GTDeck.h"
+#import "GTHand.h"
 
 @class GTCard;
 
 
 @interface GTViewController : UIViewController
 {
+    GTDeck *pDeck;
+    GTHand *pOpponentHand;
+    GTHand *pPlayerHand;
+
+    int opponentScore;
+    int playerScore;
+
     IBOutlet UILabel *pOpponentScore;
     IBOutlet UILabel *pPlayerScore;
 
@@ -29,7 +38,14 @@
     IBOutlet GTCardView *pPCV2;
     IBOutlet GTCardView *pPCV3;
 
+    IBOutlet UIView *pDealView;
     IBOutlet GTCardButton *pDCB1;
+    IBOutlet GTCardButton *pDCB2;
+    IBOutlet GTCardButton *pDCB3;
+
+    IBOutlet UIView *pOutcomeView;
+    IBOutlet UILabel *pOutcomeText;
+    IBOutlet UIButton *pDealButton;
 }
 
 /**
@@ -47,49 +63,44 @@
 - (void)setPlayerScore:(int)score;
 
 /**
-   Get the opponent's first card view
+   Set up the datamodels and both the player and opponent scores.
 
-   @returns the opponent's first card view
-*/
-- (GTCardView *)ocv1;
-
-/**
-   Get the opponent's second card view
-
-   @returns the opponent's second card view
-*/
-- (GTCardView *)ocv2;
+   @param playerScore the player score
+   @param opponentScore the opponent's score
+ */
+- (void)setupModelsAndPScore:(int)playerScore andOScore:(int)opponentScore;
 
 /**
-   Get the opponent's third card view
-
-   @returns the opponent's third card view
+   Do the initial score display
 */
-- (GTCardView *)ocv3;
+- (void)showScores;
 
 /**
-   Get the player's first card view
-
-   @returns the player's first card view
+   Deal a hand of Thoth. This basically starts a game, but does not reset
+   the accumulated scores.
 */
-- (GTCardView *)pcv1;
+- (void)dealHand;
 
 /**
-   Get the player's second card view
+   Choose a card from the table to complete the player hand.
 
-   @returns the player's second card view
-*/
-- (GTCardView *)pcv2;
+   All the card choice buttons set this up as a target.
+   @param sender the card button chosen
+ */
+- (IBAction)choose:(id)sender;
 
 /**
-   Get the player's third card view
+   Yield to the opponent (don't choose a card).
 
-   @returns the player's third card view
+   @param sender the yield button
 */
-- (GTCardView *)pcv3;
+- (IBAction)yield:(id)sender;
 
-// TEMP
-- (GTCardButton *)pdcb1;
-- (IBAction)chooseDC1:(id)sender;
+/**
+   Deal a new hand.
+
+   @param sender the deal button
+*/
+- (IBAction)deal:(id)sender;
 
 @end

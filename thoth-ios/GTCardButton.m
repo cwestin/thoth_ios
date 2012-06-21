@@ -70,4 +70,9 @@
     NSLog(@"GTCardButton setCard %@ %@", pCard, pCardView);
 }
 
+- (GTCard *)card
+{
+    return [pCardView card];
+}
+
 @end

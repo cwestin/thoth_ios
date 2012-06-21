@@ -8,6 +8,7 @@
 
 #import "GTCardView.h"
 
+#import "GTCard.h"
 
 @implementation GTCardView
 
@@ -75,14 +76,20 @@
     }
 }
 
-- (void)setCard:(GTCard *)pCard
+- (void)setCard:(GTCard *)pC
 {
+    pCard = pC;
     if (!pCard)
         pImage = nil;
     else
         pImage = [pCard image];
 
     [self setNeedsDisplay];
+}
+
+- (GTCard *)card
+{
+    return pCard;
 }
 
 @end

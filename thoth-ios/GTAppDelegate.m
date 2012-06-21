@@ -9,6 +9,7 @@
 #import "GTAppDelegate.h"
 
 #import "GTDeck.h"
+#import "GTHand.h"
 #import "GTViewController.h"
 
 @implementation GTAppDelegate
@@ -32,9 +33,7 @@
     self.window.rootViewController = pGTVC;
 
     // the model data for the game
-    pDeck = [[GTDeck alloc] init];
-    opponentScore = 0;
-    playerScore = 0;
+    [pGTVC setupModelsAndPScore:0 andOScore:0];
 
     NSLog(@"GTAppDelegate set up model");
 
@@ -68,43 +67,8 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 
     GTViewController *pGTVC = self.viewController;
-    [pGTVC setOpponentScore:opponentScore];
-    [pGTVC setPlayerScore:playerScore];
-    NSLog(@"GTAppDelegate set scores");
-
-    GTCardView *pCV;
-    GTCardButton *pCB;
-    GTCard *pCard;
-
-    pCV = [pGTVC ocv1];
-    pCard = [pDeck deal];
-    [pCV setCard:pCard];
-    [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set ocv1");
-
-    pCV = [pGTVC ocv2];
-    pCard = [pDeck deal];
-    [pCV setCard:pCard];
-    [pCV setFaceUp:false];
-    NSLog(@"GTAppDelegate set ocv2");
-
-    pCV = [pGTVC pcv1];
-    pCard = [pDeck deal];
-    [pCV setCard:pCard];
-    [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set pcv1");
-
-    pCV = [pGTVC pcv2];
-    pCard = [pDeck deal];
-    [pCV setCard:pCard];
-    [pCV setFaceUp:true];
-    NSLog(@"GTAppDelegate set pcv2");
-
-    pCB = [pGTVC pdcb1];
-    pCard = [pDeck deal];
-    [pCB setCard:pCard];
-    [pCB setFaceUp:true];
-    NSLog(@"GTAppDelegate set dcb1");
+    [pGTVC showScores];
+    [pGTVC dealHand];
 }
 
 // override from UIApplicationDelegate
